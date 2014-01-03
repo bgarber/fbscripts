@@ -1,0 +1,4 @@
+fbscripts
+=========
+
+Fluxbox scripts
