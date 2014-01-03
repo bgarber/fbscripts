@@ -13,7 +13,7 @@ Fluxbox scripts to control multimedia playback and sound.
 
 * **fb-mpris-cmd** - sends a command to a MPRIS compatible music player
 ```
-    Usage: `fb-mpris-cmd [ play | stop ]
+    Usage: fb-mpris-cmd [ play | stop ]
         play  play/pause the playback
         stop  stops the playback
 ```
