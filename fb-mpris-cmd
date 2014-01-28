@@ -20,9 +20,9 @@ if [ ! $# -eq 0 ]; then
     rhythm=$(pgrep -u $USER rhythmbox)
     banshee=$(pgrep -u $USER banshee)
 
-    if [ -n $rhythm ]; then
+    if [ $rhythm ]; then
         player="rhythmbox"
-    elif [ -n $banshee ]; then
+    elif [ $banshee ]; then
         player="banshee"
     fi
 
