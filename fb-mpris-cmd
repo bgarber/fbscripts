@@ -21,9 +21,9 @@ if [ ! $# -eq 0 ]; then
     banshee=$(pgrep -u $USER banshee)
     clementine=$(pgrep -u $USER clementine)
 
-    if [ $rhythm ]; then
+    if [ "$rhythm" ]; then
         player="rhythmbox"
-    elif [ $banshee ]; then
+    elif [ "$banshee" ]; then
         player="banshee"
     elif [ "$clementine" ]; then
         player="clementine"
